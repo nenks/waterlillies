@@ -55,3 +55,11 @@
   95% { transform: translateX(-300%); }
   100% { transform: translateX(-400%); }
 }
+
+
+@media (max-width: 600px) {
+ .slideImage { object-fit: contain;
+max-height: fit-content;
+}
+
+}
