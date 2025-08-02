@@ -14,7 +14,7 @@ import styles from "../Slider/page.module.css";
 export default function ImageSlider() {
   return (
     <>
-    <Image src={"/image/wlhf5.jpg"} width={400} height={500} alt={"hy"} className={styles.slideImage} />
+    <Image src="/image/wlhf5.jpg" width={400} height={500} alt="hy" className={styles.slideImage} />
             
     {/* <section className={styles.slider}>
       <div className={styles.slideTrack}>
