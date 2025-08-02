@@ -1,8 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import styles from "../Mission/page.module.css";
-import { FaVideo, FaHeart, FaEye, FaNewspaper, } from "react-icons/fa";
+import { FaHeart, FaEye, FaNewspaper, } from "react-icons/fa";
 import { FaLocationPinLock } from "react-icons/fa6";
 
 export default function Mission() {
