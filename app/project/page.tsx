@@ -15,8 +15,8 @@ import Header from "../component/Header/page";
 export default function ImageSlider() {
   return (
     <><Header />
-      <div className={styles.slideImages} >        
         <div className={styles.past}><h3>Past Events and Concluded projects:</h3></div>
+      <div className={styles.slideImages} >        
       <Image
         src="/image/wlhf.JPG"
         width={400}
