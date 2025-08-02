@@ -1,16 +1,8 @@
 /* page.module.css */
-
-:root {
-  --primary-color: #4b6584;
-  --accent-color: #20c997;
-  --bg-color: #f8f9fa;
-  --text-color: #222;
-}
-
 .features {
   font-family: 'Segoe UI', sans-serif;
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  background-color: #f8f9fa;
+  color: #222;
   padding: 2rem 1rem;
   line-height: 1.6;
 }
@@ -21,20 +13,19 @@
 }
 
 .header h1 {
-  color: var(--primary-color);
+  color: #4b6584;
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
 }
 
 .header p {
   font-size: 1.1rem;
-  color: var(--accent-color);
+  color: #20c997;
 }
 
 .contactInfo {
   text-align: center;
   margin-bottom: 2rem;
-
 }
 
 .contactInfo p {
@@ -50,14 +41,14 @@
 }
 
 .section h2 {
-  color: var(--primary-color);
+  color: #4b6584;
   margin-bottom: 0.5rem;
   font-size: 1.8rem;
 }
 
 .section h3 {
   font-size: 1.4rem;
-  color: var(--accent-color);
+  color: #20c997;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
