@@ -10,23 +10,22 @@ export default function Mission() {
       <div className={styles.featureBox}>
         <FaHeart className={styles.icon} />
         <h3>Mission</h3>
-        <p>
-          Lorem ipsum dolor sit amet. Aenean
-          commodo ligula eget dolor. Aenean massa.
+        <p>To empower underprivileged women and children by fostering health, education, and 
+economic self-reliance, while advocating for their rights and well-being. 
         </p>
       </div>
       <div className={styles.featureBox}>
         <FaEye className={styles.icon} />
         <h3>Vision</h3>
-        <p>
-         Lorem ipsum dolor sit amet. Aenean commodo ligula eget dolor. Aenean massa.
+        <p>A society where every woman and child thrive with dignity, access to opportunities, and 
+freedom from discrimination and abuse, creating a ripple effect of hope and 
+transformation across Nigeria and Africa.
         </p>
       </div>
       <div className={styles.featureBox}>
         <FaLocationPinLock className={styles.icon} />
         <h3>Motto</h3>
-        <p>
-         Lorem ipsum dolor sit amet. Aenean commodo ligula eget dolor. Aenean massa.
+        <p>Empowering Women and Children | Building a Brighter Tomorrow
         </p>
       </div>
          <div className={styles.featureBox}>

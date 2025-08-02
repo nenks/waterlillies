@@ -22,8 +22,8 @@ const Footer = () => {
         </div>
 
         <div className={styles.contact}>
-          <p>Email: info@wlhf.org</p>
-          <p>Phone: +234 123 456 7890</p>
+          <p>Email: infowlhf@gmail.com</p>
+          <p>Phone: 09162270997 | 08161113412 | 07033126784 </p>
           <div className={styles.socials}>
             <Link href="#">Facebook</Link>
             <Link href="#">Twitter</Link>

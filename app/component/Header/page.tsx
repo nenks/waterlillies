@@ -59,10 +59,10 @@ export default function Header() {
       </div>
 
       <nav className={`${styles.nav} ${isOpen ? styles.navOpen : ""}`}>
-        <Link href="#about" className={styles.navItem}>About</Link>
+        <Link href="/about" className={styles.navItem}>About</Link>
         <Link href="#contact" className={styles.navItem}>Contact</Link>
         <Link href="#projects" className={styles.navItem}>Projects</Link>
-        <Link href="#policies" className={styles.navItem}>Policies</Link>
+        <Link href="/" className={styles.navItem}>Home</Link>
       </nav>
 
       <div className={styles.rightSection}>

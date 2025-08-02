@@ -32,21 +32,26 @@ const SixBoxSection = () => {
       </div>
   <div className={styles.box}>
         <h3>Contact Info</h3>
-        <p>Email: info@ngo.org</p>
-        <p>Phone: +234 800 000 0000</p>        
+        <p>Email: infowhlf@ngo.org</p>
+        <p>Phone: 09162270997 | 08161113412  </p>        
         <hr />
         <br />
         <h3>Office Address</h3>
-        <p>123 NGO Way, Abuja, Nigeria</p>
+        <p>Abuja, Nigeria</p>
       </div>
     
       <div className={styles.box}>
         <h3>Partners</h3>
-        <ul>
+
+      <p>  At Watery Lilies, we believe in the power of collaboration. By partnering with individuals, 
+corporate bodies, international NGOs, and government agencies, we can scale our efforts 
+and drive measurable impact. Together, we can turn compassion into action and 
+challenges into opportunities for generations to come. </p>
+        {/* <ul>
           <li>UNICEF</li>
           <li>WHO</li>
           <li>Gates Foundation</li>
-        </ul>
+        </ul> */}
       </div>
 
       <div className={styles.box}>
