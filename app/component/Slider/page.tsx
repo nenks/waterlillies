@@ -4,11 +4,11 @@ import Image from "next/image";
 import styles from "../Slider/page.module.css";
 
 const slides = [
-  { image: "/image/wlhf.jpg", text: "watery Lilies" },
-  { image: "/image/wlhf2.jpg", text: "watery Lilies" },
-  { image: "/image/wlhf3.jpg", text: "watery Lilies" },
-  { image: "/image/wlhf4.jpg", text: "watery Lilies" },
-  { image: "/image/wlhf5.jpg", text: "watery Lilies" },
+  { image: "/image/wlhf.Jpg", text: "watery Lilies" },
+  { image: "/image/wlhf2.Jpg", text: "watery Lilies" },
+  { image: "/image/wlhf3.Jpg", text: "watery Lilies" },
+  { image: "/image/wlhf4.Jpg", text: "watery Lilies" },
+  { image: "/image/wlhf5.Jpg", text: "watery Lilies" },
 ];
 
 export default function ImageSlider() {
