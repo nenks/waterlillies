@@ -2,10 +2,10 @@ import styles from '../Executives/page.module.css';
 import Image from 'next/image';
 
 const executives = [
-  { image: "/image/wlhf.jpg", text: "Anne Joy", role: "CEO" },
-  { image: "/image/wlhf2.jpg", text: "Lucy Vivian", role: "CTO" },
-  { image: "/image/wlhf3.jpg", text: "Mic Ben", role: "MEDIA" },
-  { image: "/image/wlhf5.jpg", text: "Hamisu Sule", role: "LEGAL" },
+  { image: "/image/wlhf.JPG", text: "Anne Joy", role: "CEO" },
+  { image: "/image/wlhf2.JPG", text: "Lucy Vivian", role: "CTO" },
+  { image: "/image/wlhf3.JPG", text: "Mic Ben", role: "MEDIA" },
+  { image: "/image/wlhf5.JPG", text: "Hamisu Sule", role: "LEGAL" },
 ];
 
 const ExecutivesSlider = () => {

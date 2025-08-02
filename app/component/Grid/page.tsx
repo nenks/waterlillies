@@ -4,11 +4,11 @@ import Image from 'next/image';
 
 
 const slides = [
-  { image: "/image/wlhf.jpg", text: "watery Lilies" },
-  { image: "/image/wlhf2.jpg", text: "watery Lilies" },
-  { image: "/image/wlhf3.jpg", text: "watery Lilies" },
-  { image: "/image/wlhf4.jpg", text: "watery Lilies" },
-  { image: "/image/wlhf5.jpg", text: "watery Lilies" },
+  { image: "/image/wlhf.JPG", text: "watery Lilies" },
+  { image: "/image/wlhf2.JPG", text: "watery Lilies" },
+  { image: "/image/wlhf3.JPG", text: "watery Lilies" },
+  { image: "/image/wlhf4.JPG", text: "watery Lilies" },
+  { image: "/image/wlhf5.JPG", text: "watery Lilies" },
 ];
 
 

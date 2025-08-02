@@ -8,7 +8,7 @@ const Footer = () => {
       <div className={styles.container}>
         {/* Logo */}
         <div className={styles.logoSection}>
-          <Image src="/image/wlhf.jpg" alt="NGO Logo" width={60} height={60} />
+          <Image src="/image/wlhf.JPG" alt="NGO Logo" width={60} height={60} />
           <p className={styles.orgName}>Watery Lillies Hope Foundation</p>
         </div>
 
