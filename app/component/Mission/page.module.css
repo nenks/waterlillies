@@ -1,0 +1,53 @@
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 10px;
+  align-content: center;
+  margin-bottom: 1.5rem;
+}
+.featureBox {
+  width: 230px;
+  text-wrap: wrap;
+  overflow: hidden;
+  height: 200px;
+  text-align: center;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
+.icon {
+  font-size: 1.9rem;
+  color: orangered;
+  margin-bottom: 1rem;
+}
+.featureBox h3 {
+  color: #000;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.featureBox p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+
+
+@media (max-width: 468px) {
+.featureBox {
+  width: 97dvw;
+  text-wrap: wrap;
+  overflow: hidden;
+  height: 200px;
+  text-align: center;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
+
+}
