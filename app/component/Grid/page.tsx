@@ -32,12 +32,12 @@ const SixBoxSection = () => {
       </div>
   <div className={styles.box}>
         <h3>Contact Info</h3>
-        <p>Email: infowhlf@ngo.org</p>
+        <p>Email: infowhlf@gmail.com</p>
         <p>Phone: 09162270997 | 08161113412  </p>        
         <hr />
         <br />
         <h3>Office Address</h3>
-        <p>Abuja, Nigeria</p>
+        <p>Suite 34, Flat 4 Aliero Crescent Opposite Dynamic Academy/CAC, PW Kubwa, Abuja, Nigeria</p>
       </div>
     
       <div className={styles.box}>

@@ -1,6 +1,8 @@
 import styles from '../Footer/page.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -25,9 +27,32 @@ const Footer = () => {
           <p>Email: infowlhf@gmail.com</p>
           <p>Phone: 09162270997 | 08161113412 | 07033126784 </p>
           <div className={styles.socials}>
-            <Link href="#">Facebook</Link>
-            <Link href="#">Twitter</Link>
-            <Link href="#">Instagram</Link>
+            <Link
+            href="https://www.facebook.com/share/1AvuDiXbgi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socials__link__li}
+          >
+            <FaFacebook />
+          </Link>
+
+          <Link
+            href="https://www.instagram.com/infowlhf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socials__link__li}
+          >
+            <FaInstagram />
+          </Link>
+
+          <Link
+            href="https://www.x.com/infowlhf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socials__link__li}
+          >
+            <FaXTwitter />
+          </Link>
           </div>
         </div>
       </div>

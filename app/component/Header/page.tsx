@@ -11,7 +11,6 @@
 // export default function Header() {
 //   const [isOpen, setIsOpen] = useState(false);
 
-  
 //   return (
 //     <header className={styles.header}>
 //       <div className={styles.logoContainer}>
@@ -30,15 +29,13 @@
 //         <a href="#"><FaXTwitter/></a>
 //         <a href="#"><FaInstagram /></a>
 //       </div>
-      
+
 //       <button className={styles.menuButton} onClick={() => setIsOpen(!isOpen)}>
 //         {isOpen ? <X size={28} /> : <Menu size={28} />}
 //       </button>
 //     </header>
 //   );
-// } 
-
-
+// }
 
 "use client";
 
@@ -55,21 +52,58 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.leftSection}>
-        <h1 className={styles.logo}><strong>WLHF</strong></h1>
+
+        <h1 className={styles.logo}>
+           <Link href="/" className={styles.navItem}>
+          <strong>WLHF</strong></Link>
+        </h1>
       </div>
 
       <nav className={`${styles.nav} ${isOpen ? styles.navOpen : ""}`}>
-        <Link href="/about" className={styles.navItem}>About</Link>
-        <Link href="#contact" className={styles.navItem}>Contact</Link>
-        <Link href="#projects" className={styles.navItem}>Projects</Link>
-        <Link href="/" className={styles.navItem}>Home</Link>
+        <Link href="/about" className={styles.navItem}>
+          About
+        </Link>
+        {/* <Link href="#contact" className={styles.navItem}>Contact</Link> */}
+        <Link href="/project" className={styles.navItem}>
+          Projects
+        </Link>
+        <Link href="/" className={styles.navItem}>
+          Home
+        </Link>
       </nav>
 
       <div className={styles.rightSection}>
         <div className={styles.socials}>
-          <a href="#"><FaFacebook /></a>
-          <a href="#"><FaXTwitter /></a>
-          <a href="#"><FaInstagram /></a>
+          <Link
+            href="https://www.facebook.com/share/1AvuDiXbgi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socials__link__li}
+          >
+            <FaFacebook />
+          </Link>
+
+          <Link
+            href="https://www.instagram.com/infowlhf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socials__link__li}
+          >
+            <FaInstagram />
+          </Link>
+
+          <Link
+            href="https://www.x.com/infowlhf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socials__link__li}
+          >
+            <FaXTwitter />
+          </Link>
+          {/* 
+          <a href="#"></a>
+          <a href="#"></a>
+          <a href="#"></a> */}
         </div>
         <button
           className={styles.menuButton}

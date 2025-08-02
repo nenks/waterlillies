@@ -32,7 +32,7 @@ transformation across Nigeria and Africa.
         <FaNewspaper className={styles.icon} />
         <h3>News Update</h3>
         <p>
-         Lorem ipsum dolor sit amet. Aenean commodo ligula eget dolor. Aenean massa.
+         More on News!
         </p>
       </div>
     </div>

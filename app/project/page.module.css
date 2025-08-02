@@ -1,0 +1,132 @@
+/* page.module.css */
+.features {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #222;
+  padding: 2rem 1rem;
+  line-height: 1.6;
+}
+
+.slideImages{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  border: 5px solid #f2f2f2;
+  border-radius: 6px;
+  padding: 0.4rem;
+}
+
+.slideImage{
+  
+  border: 5px solid #f2f2f2;
+  border-radius: 6px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  color: #4b6584;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  font-size: 1.1rem;
+  color: #20c997;
+}
+
+.contactInfo {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contactInfo p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+}
+
+.section {
+  max-width: 900px;
+  margin: 0 auto 2rem auto;
+  padding: 0 1rem;
+  text-align: justify;
+}
+
+.section h2 {
+  color: #4b6584;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.section h3 {
+  font-size: 1.4rem;
+  color: #20c997;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.section ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.focusArea {
+  margin-bottom: 1.5rem;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 3rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .section h2 {
+    font-size: 1.5rem;
+  }
+
+  .section h3 {
+    font-size: 1.2rem;
+  }
+
+  .contactInfo p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .features {
+    padding: 1.5rem 0.75rem;
+  }
+
+  .section {
+    padding: 0 0.5rem;
+  }
+
+  .header h1 {
+    font-size: 1.7rem;
+  }
+
+  .header p {
+    font-size: 1rem;
+  }
+
+  .section h2 {
+    font-size: 1.3rem;
+  }
+
+  .section h3 {
+    font-size: 1.1rem;
+  }
+}

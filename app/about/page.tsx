@@ -13,7 +13,8 @@ export default function about() {
       </header>
 
       <div className={styles.contactInfo}>
-        <p>🌍 Abuja, FCT, Nigeria</p>
+        <p>🌍 Suite 34, Flat 4 Aliero Crescent Opposite Dynamic Academy/CAC, PW Kubwa, Abuja, Nigeria</p>
+      
         <p>✉️ Email: infowlhf@gmail.com</p>
         <p>☎️ Phone: 09162270997 | 08161113412 | 07033126784</p>
       </div>
