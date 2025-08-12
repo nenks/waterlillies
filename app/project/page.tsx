@@ -3,6 +3,7 @@
 import Image from "next/image";
 import styles from "../project/page.module.css";
 import Header from "../component/Header/page";
+import Footer from "../component/Footer/page";
 
 // const slides = [
 //   { image: "/image/wlhf.jpg", text: "watery Lilies" },
@@ -53,6 +54,8 @@ export default function ImageSlider() {
         className={styles.slideImage}
       />
       </div>
+      <br />
+      <Footer />
       
 
       {/* <section className={styles.slider}>

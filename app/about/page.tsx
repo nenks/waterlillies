@@ -1,6 +1,7 @@
 "use client";
 
 import styles from "../about/page.module.css";
+import Footer from "../component/Footer/page";
 import Header from "../component/Header/page";
 
 export default function about() {
@@ -107,6 +108,8 @@ export default function about() {
       <footer className={styles.footer}>
         Empowering Women and Children | Building a Brighter Tomorrow
       </footer>
+      <br />
+      <Footer />
     </div>
   );
 }

@@ -1,116 +1,157 @@
-/* page.module.css */
+/* 🌟 Page Container */
 .features {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f8f9fa;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+  padding: 2rem;
   color: #222;
-  padding: 2rem 1rem;
-  line-height: 1.6;
 }
 
+/* ===== Header Section ===== */
 .header {
   text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(90deg, #ff7eb3, #ff758c);
+  color: white;
+  border-radius: 12px;
   margin-bottom: 2rem;
+  animation: fadeInDown 0.8s ease-out;
 }
 
 .header h1 {
-  color: #4b6584;
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
 }
 
 .header p {
-  font-size: 1.1rem;
-  color: #20c997;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
+/* ===== Contact Info ===== */
 .contactInfo {
   text-align: center;
   margin-bottom: 2rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  animation: fadeIn 1s ease-out;
 }
 
 .contactInfo p {
   margin: 0.3rem 0;
-  font-size: 1rem;
 }
 
+/* ===== Card Style for Sections ===== */
 .section {
-  max-width: 900px;
-  margin: 0 auto 2rem auto;
-  padding: 0 1rem;
-  text-align: justify;
+  background: white;
+  border-radius: 12px;
+  padding: 1.8rem;
+  margin-bottom: 1.8rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 0.6s forwards;
+}
+
+.section:nth-child(even) {
+  animation-delay: 0.2s;
+}
+
+.section:nth-child(odd) {
+  animation-delay: 0.4s;
+}
+
+.section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .section h2 {
-  color: #4b6584;
-  margin-bottom: 0.5rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  color: #ff758c;
+  margin-bottom: 0.8rem;
 }
 
-.section h3 {
-  font-size: 1.4rem;
-  color: #20c997;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
+.section p,
+.section ul {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
 }
 
 .section ul {
-  list-style-type: disc;
-  padding-left: 1.5rem;
-  margin-top: 0.5rem;
+  padding-left: 1.2rem;
 }
 
+.section ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* ===== Focus Areas Styling ===== */
 .focusArea {
-  margin-bottom: 1.5rem;
+  background: #fff8f9;
+  border-left: 5px solid #ff758c;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.2rem;
 }
 
+.focusArea h3 {
+  margin-bottom: 0.5rem;
+  color: #ff4b6e;
+}
+
+.focusArea ul {
+  margin: 0;
+}
+
+/* ===== Footer ===== */
 .footer {
   text-align: center;
   font-size: 0.9rem;
-  color: #666;
-  margin-top: 3rem;
+  padding: 1.2rem;
+  margin-top: 2rem;
+  background: #ff758c;
+  color: white;
+  border-radius: 12px;
+  animation: fadeInUp 0.8s ease-out;
 }
 
-/* Responsive adjustments */
+/* ===== Animations ===== */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* 📱 Mobile Responsive */
 @media (max-width: 768px) {
   .header h1 {
     font-size: 2rem;
   }
 
-  .section h2 {
-    font-size: 1.5rem;
-  }
-
-  .section h3 {
-    font-size: 1.2rem;
-  }
-
-  .contactInfo p {
-    font-size: 0.95rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .features {
-    padding: 1.5rem 0.75rem;
-  }
-
   .section {
-    padding: 0 0.5rem;
-  }
-
-  .header h1 {
-    font-size: 1.7rem;
-  }
-
-  .header p {
-    font-size: 1rem;
+    padding: 1.2rem;
   }
 
   .section h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 
-  .section h3 {
-    font-size: 1.1rem;
+  .focusArea {
+    padding: 0.8rem;
   }
 }

@@ -18,9 +18,6 @@ const Footer = () => {
           <Link href="/">Home</Link>
           <Link href="/about">About Us</Link>
           <Link href="/projects">Projects</Link>
-          <Link href="/events">Events</Link>
-          <Link href="/contact">Contact</Link>
-          <Link href="/donate">Donate</Link>
         </div>
 
         <div className={styles.contact}>
